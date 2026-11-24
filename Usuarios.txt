@@ -1,0 +1,10 @@
+
+  create: {
+    email: "admin@escuela.com",
+    password: await bcrypt.hash("Admin123*", 10),
+    role: "ADMIN",
+  }
+
+
+jesus@alumno.edu.mx
+jesus123
